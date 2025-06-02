@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary's Home Cleaning - Canberra</title>
+    <meta name="description" content="Professional home cleaning services in Canberra. Reliable, friendly, and thorough cleaning for your home.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-contact">
+            <img src="cleaner logo.jpg" alt="Mary's Home Cleaning Logo" class="logo">
+            <div class="contact-info">
+                <h1>Mary's Home Cleaning</h1>
+                <p>Canberra, ACT</p>
+                <p><strong>Phone:</strong> <a href="tel:0412310167">0412 310 167</a></p>
+                <p><strong>Email:</strong> <a href="mailto:meirongau@hotmail.com">meirongau@hotmail.com</a></p>
+            </div>
+        </div>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#booking">Book Online</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Professional, Reliable, and Friendly Cleaning for Your Home</h2>
+        <p>Mary's Home Cleaning provides thorough house cleaning services throughout Canberra. Enjoy more free time and a sparkling clean home!</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Regular Home Cleaning</li>
+            <li>One-Off Deep Cleans</li>
+            <li>End of Lease Cleaning</li>
+            <li>Spring Cleaning</li>
+            <li>Custom Cleaning Requests</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="https://github.com/Stephen-A-2013/images/blob/main/MEITU_20250219_212015779_edit_125999636420876_resized_20250602_042420231.jpg?raw=true" alt="Woman cleaning the kitchen" />
+            <img src="https://github.com/Stephen-A-2013/images/blob/main/Screenshot_20250531_192822.jpg?raw=true" alt="Woman vacuuming living room" />
+            <img src="https://github.com/Stephen-A-2013/images/blob/main/Screenshot_20250531_192902.jpg?raw=true" alt="Woman cleaning window" />
+            <img src="https://github.com/Stephen-A-2013/images/blob/main/Screenshot_20250602_163827.jpg?raw=true" alt="Woman dusting furniture" />
+        </div>
+    </section>
+
+    <!-- Online Booking Form Section -->
+    <section id="booking">
+        <h2>Book Online</h2>
+        <p>Fill out the form below to request a home cleaning appointment. We will contact you to confirm your booking.</p>
+        <form class="booking-form" action="mailto:meirongau@hotmail.com" method="POST" enctype="text/plain">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="bedrooms">Number of Bedrooms *</label>
+            <input type="number" id="bedrooms" name="bedrooms" min="1" max="10" required>
+
+            <label for="clean_type">Type of Cleaning *</label>
+            <select id="clean_type" name="clean_type" required>
+                <option value="">-- Please Select --</option>
+                <option value="Once-off">Once-off Clean</option>
+                <option value="End-of-lease">End-of-lease Clean</option>
+                <option value="Regular">Regular Cleaning</option>
+            </select>
+
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" name="preferred_date">
+
+            <label for="notes">Additional Notes</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Let us know any special instructions or requests"></textarea>
+
+            <button type="submit">Submit Booking Request</button>
+        </form>
+    </section>
+    <!-- End Online Booking Form Section -->
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Ready for a spotless home? Get in touch with Mary's Home Cleaning today!</p>
+        <ul>
+            <li><strong>Phone:</strong> <a href="tel:0412310167">0412 310 167</a></li>
+            <li><strong>Email:</strong> <a href="mailto:meirongau@hotmail.com">meirongau@hotmail.com</a></li>
+            <li><strong>Location:</strong> Canberra, ACT</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mary's Home Cleaning. All rights reserved.</p>
+    </footer>
+</body>
+</html>
